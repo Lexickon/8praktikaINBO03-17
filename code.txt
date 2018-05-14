@@ -6,12 +6,12 @@ using namespace std;
 
 int main()
 {
-	string buff;
+	string boi;
 	ofstream fout("text.txt");
-	getline(cin, buff);
-	fout << buff;
+	getline(cin, boi);
+	fout << boi;
 	fout.close();
-    delete buff;
+    delete boi;
     system("pause");
 		return 0;
 }
